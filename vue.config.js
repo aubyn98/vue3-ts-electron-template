@@ -28,8 +28,8 @@ module.exports = {
       mainProcessWatch: ['src/main'],
       nodeIntegration: true,
       builderOptions: {
-        productName: 'eletron-template',
-        appId: 'eletron-template',
+        productName: 'eletron-ts-template',
+        appId: 'eletron-ts-template',
         extends: null,
         publish: [
           {
