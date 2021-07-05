@@ -20,6 +20,19 @@ module.exports = {
       .set('plugins', resolve('./src/renderer/common/plugins'))
       .set('mixins', resolve('./src/renderer/common/mixins'))
       .set('config', resolve('./src/renderer/common/config'))
+    config.module
+      .rule('svg')
+      .exclude.add(resolve('./src/renderer/common/styles/svg'))
+    config.module
+      .rule('icons')
+      .test(/\.svg$/)
+      .include.add(resolve('./src/renderer/common/styles/svg'))
+      .end()
+      .use('svg-sprite-loader')
+      .loader('svg-sprite-loader')
+      .options({
+        symbolId: 'icons-[name]',
+      })
   },
   pluginOptions: {
     electronBuilder: {
