@@ -3,10 +3,24 @@ function resolve(dir) {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  configureWebpack: (config) => {
+  css: {
+    loaderOptions: {
+      sass: {
+        prependData: `
+        @import "~styles/variables.scss"
+        `,
+      },
+      scss: {
+        prependData: `
+        @import "~styles/variables.scss";
+        `,
+      },
+    },
+  },
+  configureWebpack: config => {
     config.entry = { app: ['./src/renderer/main.ts'] }
   },
-  chainWebpack: (config) => {
+  chainWebpack: config => {
     config.resolve.alias
       .set('@', resolve('./src/renderer'))
       .set('assets', resolve('./src/renderer/assets'))
@@ -20,9 +34,7 @@ module.exports = {
       .set('plugins', resolve('./src/renderer/common/plugins'))
       .set('mixins', resolve('./src/renderer/common/mixins'))
       .set('config', resolve('./src/renderer/common/config'))
-    config.module
-      .rule('svg')
-      .exclude.add(resolve('./src/renderer/common/styles/svg'))
+    config.module.rule('svg').exclude.add(resolve('./src/renderer/common/styles/svg'))
     config.module
       .rule('icons')
       .test(/\.svg$/)
