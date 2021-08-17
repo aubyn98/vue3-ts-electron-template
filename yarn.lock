@@ -1187,9 +1187,9 @@
   integrity sha1-8N3KWmHlJifJ3LdxpgOdRGlFl7w=
 
 "@types/node@^14.6.2":
-  version "14.17.4"
-  resolved "https://registry.nlark.com/@types/node/download/@types/node-14.17.4.tgz#218712242446fc868d0e007af29a4408c7765bc0"
-  integrity sha1-IYcSJCRG/IaNDgB68ppECMd2W8A=
+  version "14.17.9"
+  resolved "https://registry.nlark.com/@types/node/download/@types/node-14.17.9.tgz#b97c057e6138adb7b720df2bd0264b03c9f504fd"
+  integrity sha1-uXwFfmE4rbe3IN8r0CZLA8n1BP0=
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -4224,10 +4224,10 @@ electron-to-chromium@^1.3.723:
   resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.735.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.735.tgz#fa1a8660f2790662291cb2136f0e446a444cdfdc"
   integrity sha1-+hqGYPJ5BmIpHLITbw5EakRM39w=
 
-electron@^13.0.0:
-  version "13.1.4"
-  resolved "https://registry.nlark.com/electron/download/electron-13.1.4.tgz?cache=0&sync_timestamp=1624926251339&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron%2Fdownload%2Felectron-13.1.4.tgz#6d20d932a0651c3cba9f09a3d08cbaf5b69aa84b"
-  integrity sha1-bSDZMqBlHDy6nwmj0Iy69baaqEs=
+electron@13.1.9:
+  version "13.1.9"
+  resolved "https://registry.nlark.com/electron/download/electron-13.1.9.tgz#668e2632b81e9fa21edfd32876282d3e2ff7fd76"
+  integrity sha1-Zo4mMrgen6Ie39ModigtPi/3/XY=
   dependencies:
     "@electron/get" "^1.0.1"
     "@types/node" "^14.6.2"
@@ -5292,7 +5292,7 @@ glob@^7.0.0, glob@^7.0.3, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, gl
 
 global-agent@^2.0.2:
   version "2.2.0"
-  resolved "https://registry.npm.taobao.org/global-agent/download/global-agent-2.2.0.tgz?cache=0&sync_timestamp=1617335634101&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fglobal-agent%2Fdownload%2Fglobal-agent-2.2.0.tgz#566331b0646e6bf79429a16877685c4a1fbf76dc"
+  resolved "https://registry.nlark.com/global-agent/download/global-agent-2.2.0.tgz?cache=0&sync_timestamp=1627082437079&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fglobal-agent%2Fdownload%2Fglobal-agent-2.2.0.tgz#566331b0646e6bf79429a16877685c4a1fbf76dc"
   integrity sha1-VmMxsGRua/eUKaFod2hcSh+/dtw=
   dependencies:
     boolean "^3.0.1"
@@ -7954,7 +7954,7 @@ pbkdf2@^3.0.3:
 
 pend@~1.2.0:
   version "1.2.0"
-  resolved "https://registry.npm.taobao.org/pend/download/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
+  resolved "https://registry.nlark.com/pend/download/pend-1.2.0.tgz#7a57eb550a6783f9115331fcf4663d5c8e007a50"
   integrity sha1-elfrVQpng/kRUzH89GY9XI4AelA=
 
 performance-now@^2.1.0:
@@ -9104,7 +9104,7 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
 
 roarr@^2.15.3:
   version "2.15.4"
-  resolved "https://registry.nlark.com/roarr/download/roarr-2.15.4.tgz?cache=0&sync_timestamp=1624515751750&other_urls=https%3A%2F%2Fregistry.nlark.com%2Froarr%2Fdownload%2Froarr-2.15.4.tgz#f5fe795b7b838ccfe35dc608e0282b9eba2e7afd"
+  resolved "https://registry.nlark.com/roarr/download/roarr-2.15.4.tgz#f5fe795b7b838ccfe35dc608e0282b9eba2e7afd"
   integrity sha1-9f55W3uDjM/jXcYI4Cgrnrouev0=
   dependencies:
     boolean "^3.0.1"
@@ -9302,7 +9302,7 @@ send@0.17.1:
 
 serialize-error@^7.0.1:
   version "7.0.1"
-  resolved "https://registry.nlark.com/serialize-error/download/serialize-error-7.0.1.tgz?cache=0&sync_timestamp=1618825628478&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fserialize-error%2Fdownload%2Fserialize-error-7.0.1.tgz#f1360b0447f61ffb483ec4157c737fab7d778e18"
+  resolved "https://registry.nlark.com/serialize-error/download/serialize-error-7.0.1.tgz#f1360b0447f61ffb483ec4157c737fab7d778e18"
   integrity sha1-8TYLBEf2H/tIPsQVfHN/q313jhg=
   dependencies:
     type-fest "^0.13.1"
@@ -10376,7 +10376,7 @@ type-check@~0.3.2:
 
 type-fest@^0.13.1:
   version "0.13.1"
-  resolved "https://registry.nlark.com/type-fest/download/type-fest-0.13.1.tgz#0172cb5bce80b0bd542ea348db50c7e21834d934"
+  resolved "https://registry.nlark.com/type-fest/download/type-fest-0.13.1.tgz?cache=0&sync_timestamp=1628211344858&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftype-fest%2Fdownload%2Ftype-fest-0.13.1.tgz#0172cb5bce80b0bd542ea348db50c7e21834d934"
   integrity sha1-AXLLW86AsL1ULqNI21DH4hg02TQ=
 
 type-fest@^0.20.2:
